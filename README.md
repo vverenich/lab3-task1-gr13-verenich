@@ -1,11 +1,11 @@
 # Overview
 
-It is public template of assignment `"labrabota 3"` for FPMI students
+It is public template of assignment `"labrabota 3"` for FPMI Programming Technologies course
 
 # Usage
 
-Please, edit README and add some details, as instance **{add your last name, first name and group number}**.
+Verenich Vlad 13th gr.
 
 # Building
 
-Please, import repository and use for repl.it project, which is defined in the assignment "labrabota 3".
+Just have changed text of this block.
