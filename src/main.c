@@ -2,6 +2,19 @@
 #include <stdio.h>
 #include <string.h>
 
+int getCountOfParticularCharInWord (char requiredChar, char *word){
+  int length = strlen(word);
+  int count  = 0;
+  
+  for (int i = 0; i < length; ++i){
+    if(word[i] == requiredChar ){
+      ++count;
+    }
+  }
+  
+  return count;
+}
+
 int main (int argc, char *argv[])
 {
   
@@ -11,8 +24,6 @@ int main (int argc, char *argv[])
 
   char requiredSymbol = argv[1][0];
   int numberOfWords   = argc - 2;
-
-  printf("%c", requiredSymbol);
   
   int count = 0;
   for(int i = 0; i < numberOfWords; ++i){
